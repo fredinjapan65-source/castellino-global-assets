@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Assets Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>💼 Global Assets Viewer</h2>
+
+<div class="upload-section">
+    <label for="fileInput">📂 Upload Excel File</label>
+    <input type="file" id="fileInput" accept=".xlsx,.xls">
+</div>
+
+<input type="text" id="searchInput" placeholder="🔍 Search assets...">
+
+<table id="dataTable"></table>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>

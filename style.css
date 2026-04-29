@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.upload-section {
+    margin-bottom: 20px;
+}
+
+#searchInput {
+    margin-bottom: 15px;
+    padding: 8px;
+    width: 280px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* YELLOW + BOLD headers */
+th {
+    background: yellow;
+    font-weight: bold;
+}
+
+/* YELLOW + BOLD final total row */
+.final-total {
+    background: yellow !important;
+    font-weight: bold;
+}
